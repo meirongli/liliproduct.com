@@ -1,0 +1,272 @@
+body{
+  margin-top: 0;
+}
+
+
+.container2{ 
+  width: 100%;
+  height: 30px; 
+  overflow: hidden; 
+  padding-bottom: 15px;  
+  flex-shrink: 0;
+}
+
+
+#navbar{
+  background-color: rgb(243, 93, 218);
+  color: #fff; 
+  padding:40px;
+  text-align: right;
+  word-spacing: 40px;
+  margin-bottom: 0;
+}
+
+#navbar ul{
+  padding:0;
+  list-style: none;
+  margin-right: 120px;
+
+}
+
+#navbar li{
+  display:inline;
+  margin-bottom: 0;
+}
+
+#navbar a{
+  color: #fff;
+  text-decoration: none;
+  font-size:25px;
+  padding-right:80px;
+}
+
+.side-video{
+  align-self: flex-start; 
+  width: fit-content;
+  flex-shrink: 0;
+
+}
+
+.side-video-list{
+  display: flex;
+  margin-top: 100px;  
+  margin-left: 20px;
+  margin-right: 30px;  
+  margin-bottom: 80px; 
+  align-self: flex-start; 
+  width: fit-content;
+  flex-shrink: 0;
+  
+}
+
+.side-video-list img{
+  width: 200px;
+  margin-right: 30px;
+}
+
+.vid-info{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.home h3{
+  font-size: 35px;
+  margin-left: 40px 0;
+  color: #5a5a5a;  
+  padding-left: 80px;
+}
+
+.home li{ 
+  align-items: cenrter;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;  
+  padding-left: 80px;
+  list-style:square;
+  list-style:none;
+  cursor:pointer;
+  font-size: 20px;
+}
+
+.home a:hover{
+  background-color: rgb(121, 152, 154);
+}
+
+
+.home a:active{
+background-color: rgb(238, 76, 170);
+}
+
+.home2{
+  cursor:pointer;
+}
+
+.box-grid{
+  float: right;
+  width: 60%;
+  box-sizing:border-box;
+  margin-top: 80px;
+  padding-left: 200;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.p-box{
+  width: 400px;
+  height: 400px;
+  border: 1px solid #000;
+}
+
+
+
+#main-block {
+  float: left;
+  width: 40%;
+  padding: 60px;
+  box-sizing: border-box;
+  margin-left: 50px;
+  margin-top: -20px;
+  line-height: 40px;
+}
+
+#main-block h3 {
+    font-size: 30px;
+}
+
+#main-block li {
+  font-size: 20px;
+}
+
+
+#sidebar {
+  float:right; 
+  width: 30%;
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+
+.thumbnail3 {
+    margin-top: 40px;
+    width:50px;
+}
+
+.box {
+   float: right;
+   display: flow-root;
+   word-wrap:break-word;
+   box-sizing: inherit; 
+   margin-right: 60px;  
+   width: 65%;
+   flex-shrink: 0;
+   width: fit-content;
+}
+  
+
+.left {
+  float: left;
+  margin-left:0;
+  border: 1px solid;
+  width: 45%;
+  Height: 650px;
+  padding:40px;
+  flex-shrink: 0;
+  
+}
+
+.right {
+  float: right;
+  width: 43%;
+  border: 1px solid;
+  Height: 730px;
+  padding-left:30px;
+  
+  
+}
+.box h1 {
+  font-size: 40px;
+  margin-top: 60px;
+  flex-shrink: 0;
+}
+
+.box h3 {
+  font-size: 30px;
+}
+.checkbox {
+  margin-top: 40px;
+  font-size: 25px;  
+}
+
+.form-group {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.text {
+  padding: 25px;
+  width: 280px;
+}
+
+.clear {
+  clear: both;
+}
+
+.checkbox {
+  font-size: 30px;
+  margin-left: 20px;  
+}
+
+.sent { 
+  font-size: 18px;
+  line-height: 30px;  
+}
+
+
+
+.right h2 {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.right h2:hover {
+  background-color: lightpink;
+  width: 110px;
+
+}
+
+.right h2:active {
+  background-color: rgb(194, 182, 255);
+  width: 110px;
+}
+
+@media (max-width: 600px) {
+  .box{grid-template-columns: 1fr 1fr;      
+    }
+}
+
+@media (min-width: 900px) and (max-width: 999px) {
+  html{font-size: 85.5%;}
+}
+
+.vid-info span{
+  margin-left: 30px;
+  font-size: 32px;
+}
+
+.vid-info p{
+  font-size: 25px;
+}
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+

@@ -1,0 +1,277 @@
+
+/*
+.list-container { 
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 70px;
+  margin-top: 15px;
+  margin-bottom: 200px;
+}  
+*/
+*{
+  margin-top:0;
+  margin-bottom: 0;
+}
+
+
+
+
+
+.container2{ 
+  width: 100%;
+  height: 30px; 
+  overflow: hidden; 
+  padding-bottom: 15px;  
+  flex-shrink: 0;
+}
+
+
+#navbar{
+  background-color: rgb(235, 52, 204);
+  color: #fff; 
+  padding:40px;
+  text-align: right;
+  word-spacing: 50px;
+  margin-bottom: 0;
+  height: 150px;
+}
+
+#navbar ul{
+  padding:0;
+  list-style: none;
+  margin-right: 120px;
+
+}
+
+#navbar li{
+  display:inline;
+  margin-bottom: 0;
+}
+
+#navbar a{
+  color: #fff;
+  text-decoration: none;
+  font-size:25px;
+  padding-right:80px;
+}
+
+.vid-list{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  margin-left: 100px;  
+}
+.flex-div{
+  flex-basis: 45%;
+  margin-top: 100px;
+  font-size: 45px;
+  margin-bottom: 0;
+
+}
+
+.vid-list img{
+    width: 400px;
+    height: 500px;
+
+}
+
+.flex-div p{
+  margin-top: 20px;
+  margin-bottom: 60px;
+  letter-spacing: 10px;
+  font-weight: 600;
+  color:black;
+  display: flex;
+}
+
+.flex-div span{
+  font-weight: 600;
+  display: flex;
+  flex-basis: 45%;
+}
+
+.clear {
+  clear: both;
+}
+
+.views p{
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+.views h2{
+  margin-top: 20px;
+  margin-left: 200px;
+  font-size: 45px;
+
+}
+
+
+.box-all{
+    border: 1px solid #ccc;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: 200px;
+    margin-top: 60px; 
+    letter-spacing: 2px;
+  }
+
+  .box-all .huaqi{
+    letter-spacing: 8px;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  .box p{
+    font-size: 30px;
+  }
+
+  .form-group{
+    padding:40px;
+    margin-left: 80px; 
+  }
+
+  .form-group1{
+    display: inline-block;
+  }
+
+  .form-group input{
+       width: 1500px;
+       height: 200px;
+  }
+
+  .form-group1 input{
+    width:700px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    display: block;
+  }
+
+  .naem{
+      margin-left: 110px;
+      font-size: 22px;
+  }
+
+  .checkbox{
+    margin-left: 100px;
+    font-size: 30px;
+  }
+
+  .button{
+    margin-left: 100px;
+    font-size: 30px;
+    padding: 15px;
+  }
+
+  .producets{
+      margin-top: 40px;    
+      font-size: 20px;
+      margin-left: 180px;
+  }
+
+  .birds-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 26px;
+    grid-row-gap: 70px;
+    margin-top: 80px;
+
+  }
+
+  .birds-grid img{
+     width: 500px;
+  }
+
+  .birds h2{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .birds p{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .birds span{
+    margin-left: 40px;
+  }
+
+  #main-block {
+    float: left;
+    width: 40%;
+    padding: 60px;
+    box-sizing: border-box;   
+    margin-top: -20px;
+    line-height: 40px;
+  }
+  
+  #sidebar {
+    float:right; 
+    width: 30%;
+    box-sizing: border-box;
+    margin-top:100px;
+  }
+
+  .vid-list img{
+    width: 800px;
+    margin-left: 100px;
+
+  }
+  
+  .thumbnail2 img {
+    width: 200px;
+    margin-top: 150px;
+    margin-bottom: 0;
+    margin-right: 100px;
+  }
+  
+  
+  .thumbnail3 img{
+    width: 200px; 
+    margin-top: 50px;
+    margin-right: 100px;
+  }
+  
+  
+  #main-block h3 {
+    font-size: 40px;
+    margin-top: 8rem;
+  }
+  
+  #main-block ul {
+    font-size: 20px;
+  }
+  
+  #main-block hr {
+    width: 2100px;
+    margin-left: -100px;
+  }
+  @media (max-width: 700px) {
+    .box-left{grid-template-columns: 1fr 1fr;      
+      }
+  }
+  
+  @media (min-width: 700px) and (max-width: 999px) {
+    html{font-size: 85.5%;}
+  }
+  
+  
+  
+  
+
+
+  
+
